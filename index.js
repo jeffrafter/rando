@@ -1,4 +1,4 @@
-const MUPPETS = ["Kermit", "Beakers", "Nikka"]
+const MUPPETS = ["Kermit", "Beakers", "Nikkas", "Jeffs"]
 
 exports.randomMuppet = (req, res) => {
   const muppet = MUPPETS[Math.floor(Math.random()*MUPPETS.length)]
